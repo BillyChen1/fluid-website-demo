@@ -18,13 +18,13 @@ cached dataset on nodes of different types using the strong and weak affinity an
 
 
 <div align="center">
-  <img src="/my-doc-website/concepts/dataset.png" title="perspective" height="60%" width="60%" alt=""/>
+  <img src="/fluid-website-demo/concepts/dataset.png" title="perspective" height="60%" width="60%" alt=""/>
 </div>
 
 At the same time, Dataset provides observability, such as how much data is in the dataset, how much cache space is currently available, and what the cache hit rate is. Users can use this information to decide whether to scale up or down.
 
 <div align="center">
-  <img src="/my-doc-website/concepts/dataset-status.png" title="perspective" height="60%" width="60%" alt=""/>
+  <img src="/fluid-website-demo/concepts/dataset-status.png" title="perspective" height="60%" width="60%" alt=""/>
 </div>
 
 ## Runtime
@@ -62,7 +62,7 @@ Supports both importing data from external storage into a dataset before using i
 Full concept：
 
 <div align="center">
-  <img src="/my-doc-website/concepts/concept.png" title="perspective" height="60%" width="60%" alt=""/>
+  <img src="/fluid-website-demo/concepts/concept.png" title="perspective" height="60%" width="60%" alt=""/>
 </div>
 
 

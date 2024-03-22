@@ -28,15 +28,15 @@ const config = {
   favicon: 'img/fluid-icon-color.png',
 
   // Set the production url of your site here
-  url: 'https://trafalgarzzz.github.io',
+  url: 'https://billychen1.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-doc-website/',
+  baseUrl: '/fluid-website-demo/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'TrafalgarZZZ', // Usually your GitHub org/user name.
-  projectName: 'my-doc-website', // Usually your repo name.
+  organizationName: 'BillyChen1', // Usually your GitHub org/user name.
+  projectName: 'fluid-website-demo', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'warn',
@@ -69,7 +69,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/TrafalgarZZZ/my-doc-website/tree/master/',
+            'https://github.com/BillyChen1/fluid-website-demo/tree/master/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           includeCurrentVersion: true,
@@ -89,7 +89,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/TrafalgarZZZ/my-doc-website/tree/master/',
+            'https://github.com/TrafalgarZZZ/fluid-website-demo/tree/master/',
         },
         theme: {
           customCss: './src/css/custom.css',

@@ -8,7 +8,7 @@ sidebar_position: 2
 Fluid的整体架构如下所示:
 
 <div align="center">
-  <img src="/my-doc-website/concepts/architecture.png" title="perspective" height="60%" width="60%" alt=""/>
+  <img src="/fluid-website-demo/concepts/architecture.png" title="perspective" height="60%" width="60%" alt=""/>
 </div>
 
 

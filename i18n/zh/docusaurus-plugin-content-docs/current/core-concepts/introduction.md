@@ -22,7 +22,7 @@ Fluid负责将分布式缓存系统（如Alluxio和JuiceFS）转换为具有自�
 
 
 <div align="center">
-  <img src="/my-doc-website/concepts/perspective_cn.png" title="perspective" height="60%" width="60%" alt=""/>
+  <img src="/fluid-website-demo/concepts/perspective_cn.png" title="perspective" height="60%" width="60%" alt=""/>
 </div>
 
 

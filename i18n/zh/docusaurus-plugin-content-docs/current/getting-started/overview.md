@@ -27,7 +27,7 @@ Fluid项目当前主要关注数据集编排和应用编排这两个重要场景
 
 具体的架构参见下图：
 <div align="center">
-  <img src="/my-doc-website/architecture.png" title="architecture" height="60%" width="60%" alt=""/>
+  <img src="/fluid-website-demo/architecture.png" title="architecture" height="60%" width="60%" alt=""/>
 </div>
 
 ## 概念

@@ -8,7 +8,7 @@ sidebar_position: 2
 The overall architecture of Fluid is as follows:
 
 <div align="center">
-  <img src="/my-doc-website/concepts/architecture.png" title="perspective" height="60%" width="60%" alt=""/>
+  <img src="/fluid-website-demo/concepts/architecture.png" title="perspective" height="60%" width="60%" alt=""/>
 </div>
 
 
