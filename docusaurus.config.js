@@ -7,19 +7,20 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 // const versions = require('./versions.json');
+const versions = ["0.8"]
 
-// function getNextVersionName() {
-//   const expectedPrefix = '0.';
+function getNextVersionName() {
+  const expectedPrefix = '0.';
 
-//   const lastReleasedVersion = versions[0];
-//   if (!lastReleasedVersion.includes(expectedPrefix)) {
-//     throw new Error(
-//       'this code is only meant to be used during the 0.X phase.',
-//     );
-//   }
-//   const version = parseInt(lastReleasedVersion.replace(expectedPrefix, ''), 10);
-//   return `${expectedPrefix}${version + 1}`;
-// }
+  const lastReleasedVersion = versions[0];
+  if (!lastReleasedVersion.includes(expectedPrefix)) {
+    throw new Error(
+      'this code is only meant to be used during the 0.X phase.',
+    );
+  }
+  const version = parseInt(lastReleasedVersion.replace(expectedPrefix, ''), 10);
+  return `${expectedPrefix}${version + 1}`;
+}
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -78,18 +79,20 @@ const config = {
           // onlyIncludeVersions: (() => {
           //   return ['current', ...versions.slice(0, 3)];
           // })(),
-          // versions: {
-          //   current: {
-          //     label: `${getNextVersionName()} 🚧`,
-          //   },
-          // },
+          versions: {
+            current: {
+              label: `${getNextVersionName()} 🚧`,
+            },
+          },
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/TrafalgarZZZ/fluid-website-demo/tree/master/',
+            'https://github.com/BillyChen1/fluid-website-demo/tree/master/',
+          blogSidebarTitle: 'All Posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -136,8 +139,13 @@ const config = {
             sidebarId: 'communitySidebar',
             position: 'right',
             label: 'Community',
+            activeBasePath: 'community'
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          { 
+            to: '/blog', 
+            label: 'Blog',
+            position: 'right'
+          },
           {
             type: 'docsVersionDropdown',
             position: 'right',
@@ -169,16 +177,20 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Ding Talk',
-                href: '/',
+                label: 'CNCF Slack (#fluid channel)',
+                href: 'https://app.slack.com/client/T08PSQ7BQ/C02ADG209SP',
               },
               {
-                label: 'Bi-week Meeting',
+                label: 'DingTalk (GroupID: 32850151)',
+                href: '/community/meeting_schedule',
+              },
+              {
+                label: 'Meeting',
                 href: '/community/meeting_schedule',
               },
               {
                 label: 'WeChat',
-                href: '/',
+                href: 'https://github.com/fluid-cloudnative/fluid/blob/master/README.md#community',
               },
             ],
           },
