@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfluid_website_demo=self.webpackChunkfluid_website_demo||[]).push([[7212],{9664:e=>{e.exports=JSON.parse('{"label":"paper","permalink":"/fluid-website-demo/zh/blog/tags/paper","allTagsPath":"/fluid-website-demo/zh/blog/tags","count":2,"unlisted":false}')}}]);

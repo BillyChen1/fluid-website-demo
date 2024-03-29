@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfluid_website_demo=self.webpackChunkfluid_website_demo||[]).push([[8440],{8498:e=>{e.exports=JSON.parse('{"permalink":"/fluid-website-demo/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
