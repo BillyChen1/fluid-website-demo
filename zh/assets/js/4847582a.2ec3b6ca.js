@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfluid_website_demo=self.webpackChunkfluid_website_demo||[]).push([[6456],{8012:e=>{e.exports=JSON.parse('{"label":"release","permalink":"/fluid-website-demo/zh/blog/tags/release","allTagsPath":"/fluid-website-demo/zh/blog/tags","count":2,"unlisted":false}')}}]);
