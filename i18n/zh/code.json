@@ -318,5 +318,11 @@
   },
   "Sandbox project": {
     "message": "的沙箱项目之一"
+  },
+  "Download": {
+    "message": "下载"
+  },
+  "Adopters": {
+    "message": "用户"
   }
 }

@@ -4,9 +4,9 @@
  */
 
 .hero {
-  border-bottom: 1px solid var(--hero-border-color);
+  border-top: 1px solid #eaecef;
 }
-
+/* var(--hero-border-color) */
 .heroSubtitle {
   color: var(--ifm-font-color-base);
   font-size: 1.5rem;
@@ -55,4 +55,12 @@
   .cncfLogo {
     height: 64px;
   }
+}
+
+.margin-horiz--sm, .margin-left--sm {
+  margin-left: 1rem;
+}
+
+.margin-horiz--sm, .margin-right-sm {
+  margin-right: 1rem;
 }

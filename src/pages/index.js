@@ -8,6 +8,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import HomepageAdopters from '../components/HomepageAdopters';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -24,11 +25,27 @@ function HomepageHeader() {
         </ThemedImage>
         <p className={styles.heroSubtitle}><Translate>{siteConfig.tagline}</Translate></p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/">
-            <Translate>Getting Started</Translate>
-          </Link>
+          <div className="margin-horiz--sm">
+            <Link
+              className="button button--secondary button--lg"
+              to="https://github.com/fluid-cloudnative/fluid">
+              Github
+            </Link>
+          </div>
+          <div className="margin-horiz--sm">
+            <Link
+              className="button button--secondary button--lg"
+              to="https://github.com/fluid-cloudnative/fluid/releases">
+              <Translate>Download</Translate>
+            </Link>
+          </div>
+          <div>
+            <Link
+              className="button button--secondary button--lg"
+              to="/docs/">
+              <Translate>Getting Started</Translate>
+            </Link>
+          </div>
         </div>
       </div>
     </header>
@@ -44,6 +61,8 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        {/* <hr color='#eaecef'></hr> */}
+        <HomepageAdopters />
         <div className={clsx('hero', styles.hero)}>
         <div className="container text--center">
           <h3 className="hero__subtitle">
